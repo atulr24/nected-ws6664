@@ -4,20 +4,20 @@
  "live": true,
  "data": {
   "createdAt": "2025-11-20T10:10:14.177Z",
-  "updatedAt": "2025-11-20T10:12:13.172Z",
+  "updatedAt": "2025-11-20T10:17:25.599Z",
   "isDeleted": false,
-  "testedAt": "2025-11-20T10:12:08.422Z",
-  "publishedAt": "2025-11-20T10:12:13.166Z",
+  "testedAt": "2025-11-20T10:17:18.391Z",
+  "publishedAt": "2025-11-20T10:17:25.593Z",
   "entityId": "8c4354b1-cafa-4e18-b645-e33c0b108f2a",
   "name": "DT2",
-  "commitId": "commit-00b8d508-d638-42b9-b20c-bf9347116fa8",
+  "commitId": "commit-c205993b-8722-4bde-8fa7-b7ec2b59f08d",
   "status": "published",
   "lastVersion": "draft",
   "isLive": false,
   "commitInfo": {
-   "title": "Forked from 0.30",
-   "description": "v4",
-   "timeStamp": "2025-11-20T10:12:13.164Z"
+   "title": "Forked from 0.20",
+   "description": "v5",
+   "timeStamp": "2025-11-20T10:17:25.592Z"
   },
   "customInput": {
    "name": {
@@ -25,7 +25,7 @@
     "dataType": "string",
     "attribute": "name",
     "sourceType": "dataSet",
-    "executedValue": "Jon Snow"
+    "executedValue": "email@email.com"
    }
   },
   "decisionTable": {
@@ -85,7 +85,7 @@
      "sourceType": "dataSet",
      "dataType": "string",
      "nodeType": "params",
-     "attribute": "name",
+     "attribute": "movie_id",
      "parent": "rule_02",
      "siblingIndex": 1
     }
@@ -94,7 +94,7 @@
   "firstCustomInput": "name",
   "description": "",
   "policy": "evaluteAll",
-  "version": "0.40",
+  "version": "0.50",
   "type": "decisionTable",
   "dataSetId": "eae97b51-2af3-467b-b3b5-0dc09afe65ae",
   "settings": {
@@ -118,20 +118,5 @@
   },
   "isDemo": false,
   "schemaVersion": "0.1.1"
- },
- "dependencies": [
-  {
-   "entityCommitId": "commit-00b8d508-d638-42b9-b20c-bf9347116fa8",
-   "entityType": "rule",
-   "entityId": "8c4354b1-cafa-4e18-b645-e33c0b108f2a",
-   "entityVersion": "0.40",
-   "entityNodeId": "dataSet",
-   "dependencyType": "dataSet",
-   "dependencyId": "eae97b51-2af3-467b-b3b5-0dc09afe65ae",
-   "dependencyVersion": "0.40",
-   "isDeleted": false,
-   "createdAt": "2025-11-20T10:11:52.891673Z",
-   "updatedAt": "2025-11-20T10:12:13.169852Z"
-  }
- ]
+ }
 }

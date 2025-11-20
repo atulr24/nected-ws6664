@@ -3,20 +3,20 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-20T10:10:14.177Z",
-  "updatedAt": "2025-11-20T10:12:13.176922Z",
+  "updatedAt": "2025-11-20T10:23:19.016434Z",
   "isDeleted": false,
-  "testedAt": "2025-11-20T10:12:08.422Z",
-  "publishedAt": "2025-11-20T10:12:13.166Z",
+  "testedAt": "2025-11-20T10:23:11.005Z",
+  "publishedAt": "2025-11-20T10:23:19.004Z",
   "entityId": "8c4354b1-cafa-4e18-b645-e33c0b108f2a",
   "name": "DT2",
-  "commitId": "commit-406ebdef-699c-41f0-9133-a5b9f0bf3043",
+  "commitId": "commit-6226c2b1-8c36-4530-b6d9-1b6d25a1b00a",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
   "commitInfo": {
-   "title": "Forked from 0.30",
-   "description": "v4",
-   "timeStamp": "2025-11-20T10:12:13.164Z"
+   "title": "Forked from 0.20",
+   "description": "v6",
+   "timeStamp": "2025-11-20T10:23:19.002Z"
   },
   "customInput": {
    "name": {
@@ -24,7 +24,7 @@
     "dataType": "string",
     "attribute": "name",
     "sourceType": "dataSet",
-    "executedValue": "Jon Snow"
+    "executedValue": "email@email.com"
    }
   },
   "decisionTable": {
@@ -84,7 +84,7 @@
      "sourceType": "dataSet",
      "dataType": "string",
      "nodeType": "params",
-     "attribute": "name",
+     "attribute": "movie_id",
      "parent": "rule_02",
      "siblingIndex": 1
     }
@@ -93,7 +93,7 @@
   "firstCustomInput": "name",
   "description": "",
   "policy": "evaluteAll",
-  "version": "0.40",
+  "version": "0.60",
   "type": "decisionTable",
   "dataSetId": "eae97b51-2af3-467b-b3b5-0dc09afe65ae",
   "settings": {
