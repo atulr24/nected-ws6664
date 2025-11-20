@@ -4,20 +4,20 @@
  "live": true,
  "data": {
   "createdAt": "2025-11-20T10:10:14.177Z",
-  "updatedAt": "2025-11-20T10:17:25.599Z",
+  "updatedAt": "2025-11-20T10:23:19.013Z",
   "isDeleted": false,
-  "testedAt": "2025-11-20T10:17:18.391Z",
-  "publishedAt": "2025-11-20T10:17:25.593Z",
+  "testedAt": "2025-11-20T10:23:11.005Z",
+  "publishedAt": "2025-11-20T10:23:19.004Z",
   "entityId": "8c4354b1-cafa-4e18-b645-e33c0b108f2a",
   "name": "DT2",
-  "commitId": "commit-c205993b-8722-4bde-8fa7-b7ec2b59f08d",
+  "commitId": "commit-878f84e4-dabf-4b52-bb7f-3552f414bddd",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": false,
+  "isLive": true,
   "commitInfo": {
    "title": "Forked from 0.20",
-   "description": "v5",
-   "timeStamp": "2025-11-20T10:17:25.592Z"
+   "description": "v6",
+   "timeStamp": "2025-11-20T10:23:19.002Z"
   },
   "customInput": {
    "name": {
@@ -94,7 +94,7 @@
   "firstCustomInput": "name",
   "description": "",
   "policy": "evaluteAll",
-  "version": "0.50",
+  "version": "0.60",
   "type": "decisionTable",
   "dataSetId": "eae97b51-2af3-467b-b3b5-0dc09afe65ae",
   "settings": {
