@@ -1,0 +1,76 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "live": true,
+ "data": {
+  "createdAt": "2025-11-20T09:22:29.938Z",
+  "updatedAt": "2025-11-20T09:25:22.016Z",
+  "isDeleted": false,
+  "publishedAt": "2025-11-20T09:25:22.005Z",
+  "testedAt": "2025-11-20T09:25:13.061Z",
+  "entityId": "eae97b51-2af3-467b-b3b5-0dc09afe65ae",
+  "name": "Untitled",
+  "commitId": "commit-678bdeda-92b0-4de6-b16d-919f50b4c77e",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
+  "commitInfo": {
+   "title": "Forked from 0.30",
+   "description": "v4",
+   "timeStamp": "2025-11-20T09:25:22.003Z"
+  },
+  "fields": {
+   "_id": {
+    "ColumnName": "_id",
+    "DataType": "objectid",
+    "Order": 1,
+    "ExecutedValue": "59b99db9cfa9a34dcd7885bf"
+   },
+   "name": {
+    "ColumnName": "name",
+    "DataType": "string",
+    "Order": 2,
+    "ExecutedValue": "Jon Snow"
+   },
+   "email": {
+    "ColumnName": "email",
+    "DataType": "string",
+    "Order": 3,
+    "ExecutedValue": "kit_harington@gameofthron.es"
+   },
+   "password": {
+    "ColumnName": "password",
+    "DataType": "string",
+    "Order": 4,
+    "ExecutedValue": "$2b$12$fDEu1Ru66tLWAVidMN.b0.929BlfnyqdGuhWMyzfOAf/ATYOyLoY6"
+   }
+  },
+  "query": "db.users.find({})",
+  "version": "0.40",
+  "connectorId": "2d51053e-f0cb-4806-ac44-a42041de720c",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-678bdeda-92b0-4de6-b16d-919f50b4c77e",
+   "entityType": "dataSet",
+   "entityId": "eae97b51-2af3-467b-b3b5-0dc09afe65ae",
+   "entityVersion": "0.40",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "2d51053e-f0cb-4806-ac44-a42041de720c",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-20T09:25:10.928454Z",
+   "updatedAt": "2025-11-20T09:25:22.01208Z"
+  }
+ ]
+}
